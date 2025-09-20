@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ui_bg">#0A0D14</color>
+    <color name="ui_surface">#0E1420</color>
+    <color name="ui_surface_variant">#131B2A</color>
+    <color name="ui_primary">#1E293B</color>
+    <color name="ui_on_primary">#FFFFFFFF</color>
+
+    <color name="ui_on_surface">#E6ECF3</color>
+    <!-- <color name="ui_on_surface1">#DEE4EB</color> -->
+    <color name="ui_on_surface_variant">#9AA4B2</color>
+    <color name="ui_outline">#263244</color>
+    <color name="ui_accent">#8AA4FF</color>
+
+    <color name="ui_glass_fill">#14FFFFFF</color>
+    <color name="ui_glass_stroke">#26FFFFFF</color>
+
+    <color name="ui_ripple_on_primary">#33FFFFFF</color>
+    <color name="ui_ripple_on_surface">#14FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_500">#1912D2</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GalleryOrganizer</string>
+    <string name="app_slogan">Organize Your Life</string>
+    <string name="open_camera">📷 Open Camera</string>
+    <string name="organize_gallery">📁 Organize Gallery</string>
+    <string name="your_gallery">🗂️ Your Organized Gallery</string>
+    <string name="about_app">ℹ️ About</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="save_photo">Save Photo</string>
+    <string name="create_folder">Create New Folder</string>
+    <string name="select_folder">Select Folder</string>
+    <string name="add_tags">Add Tags</string>
+    <string name="search_photos">Search Photos</string>
+    <string name="favorite">⭐ Favorite</string>
+    <string name="share">Share</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="add_note">Add Note</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="collaborate">Collaboration Opportunities</string>
+    <string name="suggest_features">Suggest Features</string>
+    <string name="camera_widget_desc">Quick Camera Access</string>
+    <string name="photos_widget_desc">Recent Photos Count</string>
+    <string name="splash_slogan">Organize. Capture. Evolve.</string>
+</resources>

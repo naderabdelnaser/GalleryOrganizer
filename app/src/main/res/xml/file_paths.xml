@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- camera temp files if we ever fall back -->
+    <external-files-path name="app_pictures" path="Pictures/" />
+    <cache-path name="cache" path=""/>
+    <external-cache-path name="external_cache" path=""/>
+    <!-- share existing files in public Pictures on legacy devices -->
+    <external-path name="public_pictures" path="Pictures/" />
+</paths>

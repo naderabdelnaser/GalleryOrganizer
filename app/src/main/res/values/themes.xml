@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GalleryOrganizer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ui_primary</item>
+        <item name="colorOnPrimary">@color/ui_on_primary</item>
+        <item name="colorSurface">@color/ui_surface</item>
+        <item name="colorSurfaceVariant">@color/ui_surface_variant</item>
+        <item name="colorOnSurface">@color/ui_on_surface</item>
+        <item name="colorOutline">@color/ui_outline</item>
+
+        <!-- Use window background to avoid colorBackground attr issues -->
+        <item name="android:windowBackground">@color/ui_bg</item>
+
+        <!-- Make default AlertDialogs readable even with AppCompat's Builder -->
+        <item name="alertDialogTheme">@style/ThemeOverlay.GalleryOrganizer.AlertDialog</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.GalleryOrganizer.AlertDialog</item>
+    </style>
+
+    <!-- Dialog overlay: readable text + accent-colored buttons on dark surface -->
+    <style name="ThemeOverlay.GalleryOrganizer.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/ui_surface</item>
+        <item name="colorOnSurface">@color/ui_on_surface</item>
+        <item name="colorPrimary">@color/ui_accent</item> <!-- affects text button color -->
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.GalleryOrganizer.Body</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.GalleryOrganizer.Title</item>
+    </style>
+
+    <style name="TextAppearance.GalleryOrganizer.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/ui_on_surface</item>
+    </style>
+    <style name="TextAppearance.GalleryOrganizer.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/ui_on_surface</item>
+    </style>
+</resources>

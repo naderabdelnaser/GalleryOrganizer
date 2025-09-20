@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_row"
+    android:clickable="true"
+    android:focusable="true">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Photo"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.GalleryOrganizer.Rounded12"
+        app:strokeColor="@color/ui_outline"
+        app:strokeWidth="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="6dp">
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textSize="12sp"
+            android:textColor="@color/ui_on_surface_variant" />
+
+        <ImageView
+            android:id="@+id/imageViewFavorite"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@android:drawable/btn_star_big_on"
+            android:tint="@color/ui_on_surface"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tags"
+        android:textSize="12sp"
+        android:textColor="@color/ui_on_surface_variant"
+        android:paddingTop="2dp"/>
+</LinearLayout>
