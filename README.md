@@ -14,7 +14,7 @@ A privacy-first Android app to organize, tag, and share photos with PDF export a
 ## Installation
 Download And Install The Release (6.0+).
 
-click here to download lastest release https://github.com/naderabdelnaser/GallerOrganizer/releases/latest
+click here to download lastest release (https://github.com/naderabdelnaser/GalleryOrganizer/releases/download/v1.0.0/app-release.apk)
 
 
 ## License
